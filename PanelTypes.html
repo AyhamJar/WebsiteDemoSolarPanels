@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarX Types</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0e6582e518.js" crossorigin="anonymous"></script>">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img class="mainimg" src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="PanelTypes.html">PANEL TYPES</a></li>
+                    <li><a href="PanelCosts.html">PANEL COSTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Panel Types</h1>
+    </section>
+
+<!---------Course--------->
+    
+<section class="campus">
+    <h1>Types of Solar Panels</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, nobis ea dolorem minus nulla eligendi fuga eius exercitationem quam pariatur magni nihil, atque incidunt quos possimus iste assumenda nisi? Quasi ad magni ducimus dolor enim sapiente omnis nesciunt, animi molestias, dolorem alias cupiditate expedita facere eveniet corrupti quas accusantium eius velit sit nam atque voluptatibus natus. Maxime delectus quo ullam quas provident expedita doloribus dolorum quibusdam, veniam quisquam consequatur eveniet hic officiis nulla alias aspernatur obcaecati placeat saepe asperiores assumenda! Ducimus, dolorem quia mollitia culpa, soluta autem consectetur id ut perspiciatis aliquid, labore deserunt incidunt porro recusandae veritatis repudiandae! Totam distinctio fugiat ipsa illo ullam a quod voluptates enim, atque suscipit facere deleniti esse quia cumque aliquam libero deserunt, expedita tenetur dicta consectetur. Laudantium velit optio atque pariatur deleniti eum necessitatibus adipisci, sit, impedit tempora asperiores! Fuga sint provident nulla labore ipsa delectus dignissimos, suscipit, ab quos modi magnam voluptate?</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/monocrys.jpg">
+            <div class="layer">
+                <h3>MONOCRYSTALLINE</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/polycrys.jpg">
+            <div class="layer">
+                <h3>POLYCRYSTALLINE</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/thinfilm.jfif">
+            <div class="layer">
+                <h3>THIN FILM</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis molestiae unde iste nulla rem molestias eum commodi?<br> Fugiat explicabo hic molestiae provident nisi ipsam?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!----------JavaScript for Toggle Menu-------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0px"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
