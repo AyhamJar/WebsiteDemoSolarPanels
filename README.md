@@ -37,7 +37,7 @@ The file `About.html` is the about page of the website. <br>
 
 `style.css` is the file that contains the styling of all the pages. <br>
 
-`@media(max-width: 700px){` porperties are set is for designing the web application to be suitable for mobile devices.
+`@media(max-width: 700px){` porperties are set is for designing the web application to be suitable for mobile devices. <br>
 
 
 ## Images
