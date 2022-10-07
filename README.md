@@ -1,6 +1,6 @@
 # WebsiteDemoSolarPanels
 
-This is a demo Website that is styled to discuss Solar Panels, its types, and its costs.
+This is a demo website that is styled to discuss Solar Panels, its types, and its costs.
 
 ## Home Page
 
