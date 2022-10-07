@@ -40,3 +40,7 @@ The file `About.html` is the about page of the website. <br>
 `@media(max-width: 700px){` porperties are set is for designing the web application to be suitable for mobile devices.
 
 
+## Images
+
+`images` folder contains all the images that are used in the web application <br>
+
