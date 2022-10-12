@@ -42,5 +42,5 @@ The file `About.html` is the about page of the website. <br>
 
 ## Images
 
-`images` folder contains all the images that are used in the web application <br>
+`images` folder contains all the images that are used in the web application. <br>
 
